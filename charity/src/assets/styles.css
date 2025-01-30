@@ -1,0 +1,125 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color: #f8f9fa;
+    color: #212529;
+    line-height: 1.6;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #007bff;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    color: #fff !important;
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #fff !important;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #fff;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+    font-size: 0.9rem;
+  }
+  
+  footer a {
+    color: #ffc107;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-color: #007bff;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  .hero .btn {
+    background-color: #ffc107;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .hero .btn:hover {
+    background-color: #e0a800;
+  }
+  
+  /* Campaign Card */
+  .card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-img-top {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .progress-bar {
+    background-color: #28a745;
+  }
+  
+  /* Buttons */
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Testimonial */
+  .testimonial {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .testimonial .blockquote {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #555;
+  }
+  
+  /* Stats Counter */
+  .stats-counter {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
