@@ -30,7 +30,7 @@ const SignUpPage = () => {
 
     try {
       
-      const response = await axios.post('http://localhost:5000/users/register', {
+      const response = await axios.post('https://charity-backend-lknu.onrender.com/users/register', {
         name: userData.name,
         email: userData.email,
         password: userData.password,

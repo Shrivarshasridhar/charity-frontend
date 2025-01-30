@@ -26,7 +26,7 @@ function VolunteerSignup() {
 
     try {
       
-      const response = await axios.post("http://localhost:5000/volunteers/signup", volunteerInfo);
+      const response = await axios.post("https://charity-backend-lknu.onrender.com/volunteers/signup", volunteerInfo);
 
       if (response.status === 201) {
         alert("Thank you for signing up as a volunteer!");
